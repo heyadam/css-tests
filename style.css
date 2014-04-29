@@ -1,0 +1,19 @@
+.sunglasses {
+    width: 100px;
+    height: 100px;
+    background: black;
+
+    -webkit-transform: rotate(0deg);
+
+    -webkit-transition: all 1s ease;
+}
+
+.sunglasses.rotate {
+
+    background: red;
+    -webkit-transform: rotate(45deg);
+}
+
+.sunglasses.goaway {
+    display: none;
+}
